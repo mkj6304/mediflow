@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Navbar from './components/NavBar.jsx'; 
+import Home from './pages/Home';
+import Hospital from './pages/Hospital';
+import Manufacturer from './pages/Manufacturer';
+import User from './pages/User';
+import Pharmacy from './pages/Pharmacy';
+import Supplier from './pages/Supplier';
+import Lab from './pages/Lab';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/hospital" element={<Hospital />} />
+        <Route path="/manufacturer" element={<Manufacturer />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/pharmacy" element={<Pharmacy />} />
+        <Route path="/supplier" element={<Supplier />} />
+        <Route path="/lab" element={<Lab />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </Router>
   );
 }
 

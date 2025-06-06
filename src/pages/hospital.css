@@ -1,0 +1,64 @@
+/* Hospital.css */
+
+.hospital-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.medicine-form input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.medicine-form button {
+  padding: 0.6rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.medicine-form button:hover {
+  background-color: #005fa3;
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.stock-table th,
+.stock-table td {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: #fff;
+}
+
+.stock-table th {
+  background-color: #eaeff5;
+}
+
+.features-coming {
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  margin-top: 1.5rem;
+}

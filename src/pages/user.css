@@ -1,0 +1,53 @@
+/* User.css */
+
+.user-container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f7fafe;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.user-container input[type="text"],
+.user-container textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.user-container button {
+  padding: 0.6rem 1.2rem;
+  background-color: #0088cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.user-container button:hover {
+  background-color: #006b99;
+}
+
+.results-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.results-section li {
+  background: #e6f0ff;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+h4 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}

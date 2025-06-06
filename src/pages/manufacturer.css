@@ -1,0 +1,63 @@
+/* Manufacturer.css */
+
+.manufacturer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f0fcf9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.batch-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.batch-form input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.batch-form button {
+  grid-column: span 4;
+  padding: 0.6rem 1rem;
+  background-color: #006644;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.batch-form button:hover {
+  background-color: #004c33;
+}
+
+.batch-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.batch-table th,
+.batch-table td {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.batch-table th {
+  background-color: #e2f4f1;
+}
+
+.features-coming {
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  margin-top: 2rem;
+}
