@@ -1,6 +1,6 @@
 // pages/Hospital.jsx
 import React, { useState, useEffect } from 'react';
-import './hospital.css'; // Styling via CSS (Day 2-3)
+import './css/hospital.css'; // Styling via CSS (Day 2-3)
 
 const Hospital = () => {
   // useState for managing stock and medicine inputs (Day 9)

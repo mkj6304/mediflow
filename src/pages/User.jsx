@@ -1,6 +1,6 @@
 // pages/User.jsx
 import React, { useState, useEffect } from 'react';
-import './user.css';
+import './css/user.css';
 
 const User = () => {
   const [searchTerm, setSearchTerm] = useState('');

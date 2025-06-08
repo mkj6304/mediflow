@@ -1,6 +1,6 @@
 // pages/Manufacturer.jsx
 import React, { useState } from 'react';
-import './manufacturer.css';
+import './css/manufacturer.css';
 
 const Manufacturer = () => {
   const [batch, setBatch] = useState({ name: '', batchNo: '', formulation: '', quality: '' });

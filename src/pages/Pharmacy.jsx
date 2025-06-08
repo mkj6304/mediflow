@@ -1,6 +1,6 @@
 // pages/Pharmacy.jsx
 import React, { useState } from 'react';
-import './pharmacy.css';
+import './css/pharmacy.css';
 
 const Pharmacy = () => {
   const [inventory, setInventory] = useState([]);

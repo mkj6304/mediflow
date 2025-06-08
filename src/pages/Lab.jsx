@@ -1,6 +1,6 @@
 // pages/Lab.jsx
 import React, { useState } from 'react';
-import './lab.css';
+import './css/lab.css';
 
 const Lab = () => {
   const [report, setReport] = useState({ sampleId: '', result: '', interpretation: '' });

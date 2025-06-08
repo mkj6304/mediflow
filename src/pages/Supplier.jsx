@@ -1,6 +1,6 @@
 // pages/Supplier.jsx
 import React, { useState } from 'react';
-import './supplier.css';
+import './css/supplier.css';
 
 const Supplier = () => {
   const [supplies, setSupplies] = useState([]);
