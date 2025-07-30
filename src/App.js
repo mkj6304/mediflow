@@ -9,6 +9,7 @@ import User from './pages/User';
 import Pharmacy from './pages/Pharmacy';
 import Supplier from './pages/Supplier';
 import Lab from './pages/Lab';
+import './styles/design-system.css';
 
 function App() {
   return (
